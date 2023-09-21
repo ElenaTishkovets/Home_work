@@ -1,7 +1,7 @@
 package home_work_1;
 
 import java.util.Scanner;
-import java.util.Objects;
+import java.util.Obje
 
 public class Home_work_1_6 {
     public static void main(String[] args) {
@@ -15,12 +15,10 @@ public class Home_work_1_6 {
 
         if (nameVasya) {
             System.out.println("Привет!\nЯ тебя так долго ждал");
+        } else if (nameAna) {
+            System.out.println("Я тебя так долго ждал");
         } else {
-            if (nameAna) {
-                System.out.println("Я тебя так долго ждал");
-            } else {
-                System.out.println("Добрый день, а Вы кто?");
-            }
+            System.out.println("Добрый день, а Вы кто?");
         }
     }
 }
